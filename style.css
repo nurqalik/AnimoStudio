@@ -127,7 +127,7 @@ h2
 }
 .navbar
 {
-    background-color: transparent;
+    background-color: #414342;
     padding: 0.5rem 3rem;
 }
 button.navbar-toggler
@@ -142,6 +142,43 @@ button.navbar-toggler
 {
     justify-content: center;
     align-items: center;
+}
+.single-logo {
+  padding: 0 30px; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-logo {
+      padding: 0 15px; } }
+  @media (max-width: 767px) {
+    .single-logo {
+      padding: 0px 15px; } }
+  @media (max-width: 767px) {
+    .single-logo {
+      height: auto ; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-logo {
+      width: 33.33%; } }
+  .single-logo img {
+    height: 75px;
+    opacity: 0.5;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    }
+    @media (max-width: 767px) {
+    .single-logo img {
+      padding: 10px;
+      margin-top: 5px;  } }
+  .single-logo:hover img {
+    opacity: 1; }
+img
+{
+  max-width: 100%;
+}
+.mt-30
+{
+  margin-top: 30px;
 }
 
 /* Icon Section */
@@ -382,6 +419,62 @@ hr.light-100 {
 		padding: 2rem;
 	}
 }
+@media (max-widht: 767px){
+	.carousel-caption {
+	top: 45%;
+	}
+	.carousel-caption h1 {
+		font-size: 350%;
+	}
+	.carousel-caption h3 {
+		font-size: 140%;
+		font-weight: 400;
+		padding-bottom: .2rem;
+	}
+	.carousel-caption .btn {
+		font-size: 95%;
+		padding: 8px 14px;
+	}
+	.display-4 {
+		font-size: 200%;
+	}
+	.social a {
+		font-size: 2.5em;
+		padding: 1.2rem;
+	}
+}
+@media (max-widht: 576px){
+	.carousel-caption {
+	top: 45%;
+	}
+	.carousel-caption h1 {
+		font-size: 250%;
+	}
+	.carousel-caption h3 {
+		font-size: 110%;
+	}
+	.carousel-caption .btn {
+		font-size: 90%;
+		padding: 4px 8px;
+	}
+	.carousel-indicators {
+		display: none;
+	}
+	.display-4 {
+		font-size: 160%;
+	}
+	.social a {
+		font-size: 2em;
+		padding: .7rem;
+	}
+}
+/* Media Queries */
+@media (max-widht: 992px){
+	.social a {
+		font-size: 4em;
+		padding: 2rem;
+	}
+}
 @media (max-widht: 768px){
 	.carousel-caption {
 	top: 45%;
@@ -431,7 +524,6 @@ hr.light-100 {
 		padding: .7rem;
 	}
 }
-
 /* Firefox Bug Fix */
 .carousel-item {
 	transition: -webkit-transform 0.5s ease;
