@@ -138,6 +138,7 @@ button.navbar-toggler
     border: 1px solid transparent;
     border-radius: .25rem;
 }
+
 .icons
 {
     justify-content: center;
@@ -406,13 +407,13 @@ hr.light-100 {
 }
 
 /* Media Queries */
-@media (max-widht: 992px){
+@media (max-width: 992px){
 	.social a {
 		font-size: 4em;
 		padding: 2rem;
 	}
 }
-@media (max-widht: 767px){
+@media (max-width: 767px){
 	.carousel-caption {
 	top: 45%;
 	}
@@ -436,7 +437,7 @@ hr.light-100 {
 		padding: 1.2rem;
 	}
 }
-@media (max-widht: 576px){
+@media (max-width: 576px){
 	.carousel-caption {
 	top: 45%;
 	}
@@ -462,13 +463,13 @@ hr.light-100 {
 	}
 }
 /* Media Queries */
-@media (max-widht: 992px){
+@media (max-width: 992px){
 	.social a {
 		font-size: 4em;
 		padding: 2rem;
 	}
 }
-@media (max-widht: 768px){
+@media (max-width: 768px){
 	.carousel-caption {
 	top: 45%;
 	}
@@ -492,7 +493,7 @@ hr.light-100 {
 		padding: 1.2rem;
 	}
 }
-@media (max-widht: 576px){
+@media (max-width: 576px){
 	.carousel-caption {
 	top: 45%;
 	}
@@ -516,6 +517,18 @@ hr.light-100 {
 		font-size: 2em;
 		padding: .7rem;
 	}
+}
+@media (max-width: 640px){
+  iframe{
+  height: 1200px; /*whatever you need, to make the scrollbar hide on testing, and the content of the iframe reveal (on mobile/phone or other target devices) */
+  width: 400px;
+  }
+}
+@media (max-width: 420px){
+  iframe{
+  height: 1600px; /*and so on until and as needed */
+  width: 400px;
+  }
 }
 /* Firefox Bug Fix */
 .carousel-item {
