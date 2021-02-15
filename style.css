@@ -561,16 +561,11 @@ figure {
 }
 
 /*Animation Section */
-.animatedFadeInUp {
-  opacity: 0
+.fadeInUp-scroll.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: all 1s;
 }
-
-.fadeInUp {
-  opacity: 0;
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
-}
-
 
 
 
