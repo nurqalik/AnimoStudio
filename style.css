@@ -509,13 +509,13 @@ hr.light-100 {
 @media (max-width: 640px){
   iframe{
   height: 695px; /*whatever you need, to make the scrollbar hide on testing, and the content of the iframe reveal (on mobile/phone or other target devices) */
-  width: 475px;
+  width: 470px;
   }
 }
 @media (max-width: 480px){
   iframe{
   height: 690px; /*and so on until and as needed */
-  width: 420px;
+  width: 400px;
   }
 }
 /* Firefox Bug Fix */
