@@ -514,7 +514,7 @@ hr.light-100 {
 }
 @media (max-width: 480px){
   iframe{
-  height: 650px; /*and so on until and as needed */
+  height: 690px; /*and so on until and as needed */
   width: 420px;
   }
 }
