@@ -512,9 +512,9 @@ hr.light-100 {
   width: 475px;
   }
 }
-@media (max-width: 420px){
+@media (max-width: 480px){
   iframe{
-  height: 640px; /*and so on until and as needed */
+  height: 650px; /*and so on until and as needed */
   width: 420px;
   }
 }
