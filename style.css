@@ -86,7 +86,7 @@ footer
 }
 footer h5
 {
-    background: #343a40;
+    background: black;
     color: #fff;
     padding: 15px;
     font-size: 11px;
@@ -127,7 +127,7 @@ h2
 }
 .navbar
 {
-    background-color: #414342;
+    background-color: black;
     padding: 0.5rem 3rem;
 }
 button.navbar-toggler
@@ -159,9 +159,11 @@ button.navbar-toggler
   text-align: center;
   padding: 0 4;
   
+  
 }
 .single-logo:hover img {
-  opacity: 1; 
+  opacity: 1;
+  color: white;
 }
 .middle {
   transition: .5s ease;
@@ -338,7 +340,7 @@ html,body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Open Sans';
-  color: #222;
+  color: black;
   scroll-behavior: smooth;
 }
 .navbar {
@@ -383,7 +385,6 @@ html,body {
 	border-radius: 0;
 }
 .padding {
-	padding-bottom: 2rem;
 }
 .welcome {
 	width: 75%;
@@ -405,7 +406,7 @@ html,body {
 	color: #d5d5d5;
 }
 footer {
-	background-color: #343a40;
+	background-color: black;
 	color: #d5d5d5;
 	padding-top: 2rem;
 }
